@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\bin\Debug\netcoreapp3.1\Web-Scrape-C-Sharp-NET-Core.exe
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\bin\Debug\netcoreapp3.1\Web-Scrape-C-Sharp-NET-Core.deps.json
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\bin\Debug\netcoreapp3.1\Web-Scrape-C-Sharp-NET-Core.runtimeconfig.json
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\bin\Debug\netcoreapp3.1\Web-Scrape-C-Sharp-NET-Core.runtimeconfig.dev.json
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\bin\Debug\netcoreapp3.1\Web-Scrape-C-Sharp-NET-Core.dll
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\bin\Debug\netcoreapp3.1\Web-Scrape-C-Sharp-NET-Core.pdb
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\obj\Debug\netcoreapp3.1\Web-Scrape-C-Sharp-NET-Core.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\obj\Debug\netcoreapp3.1\Web-Scrape-C-Sharp-NET-Core.AssemblyInfo.cs
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\obj\Debug\netcoreapp3.1\Web-Scrape-C-Sharp-NET-Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\obj\Debug\netcoreapp3.1\Web-Scrape-C-Sharp-NET-Core.csproj.CopyComplete
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\obj\Debug\netcoreapp3.1\Web-Scrape-C-Sharp-NET-Core.dll
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\obj\Debug\netcoreapp3.1\Web-Scrape-C-Sharp-NET-Core.pdb
+C:\Users\User\Desktop\Web-Scrape-C-.NET-Core\Web-Scrape-C-Sharp-NET-Core\Web-Scrape-C-Sharp-NET-Core\obj\Debug\netcoreapp3.1\Web-Scrape-C-Sharp-NET-Core.genruntimeconfig.cache

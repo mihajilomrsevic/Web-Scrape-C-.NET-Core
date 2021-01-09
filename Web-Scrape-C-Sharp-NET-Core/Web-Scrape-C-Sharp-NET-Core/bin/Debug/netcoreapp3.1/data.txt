@@ -1,0 +1,445 @@
+   
+ 
+
+	<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+	<title>�й���������Ƽ�</title>
+	<style type="text/css"></style>
+	<link href="../images/index.css" rel="stylesheet" type="text/css">
+	<link href="../images/detail.css" rel="stylesheet" type="text/css">
+	<link href="../time/css/common.css" rel="stylesheet" type="text/css">
+	<link href="../images/page.css" rel="stylesheet" type="text/css">
+	<SCRIPT LANGUAGE="JavaScript" src="../js/pageEN.js"></SCRIPT>
+         
+	</head>
+	<!--LIFO-->
+	<script language="JavaScript">
+	function executeSearch()
+	{  
+		document.historysearchform.method = 'post';  
+		document.historysearchform.submit();
+	} 
+	</script>
+	<body>
+        <script language="JavaScript" src="https://www.bankofchina.com/head_620.js" ignoreapd="1"></script>
+	<table width="580" border="0" cellpadding="0" cellspacing="0">				
+                  <tr>   
+                    <td width="15" align="center" valign="middle">&nbsp;</td>             
+                    <td width="340" align="left" valign="middle">
+                    <form method="post" name="historysearchform" id="historysearchform" action="searchen.jsp">
+					<table width="0" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="40" align="left" valign="middle"><span class="hui12_20_hover">START:</span></td>
+                          <td width="120" align="left" valign="middle" class="hui12_20_hover">
+                          <input type="text" name="erectDate" value="2021-01-07" size=12>
+		<A href="javascript:void(0)"
+		onclick="gfPop.fStartPop(document.historysearchform.erectDate, document.historysearchform.nothing);return false;" hidefocus> <IMG name="popcal" align="absbottom" src="../time/calbtn.gif" border="0" alt=""> </A>
+						  </td>
+                          
+                          <td width="35" align="center" valign="middle"><span class="hui12_20_hover">END:</span></td>
+                          <td width="130" align="left" valign="middle">
+						  <INPUT type="text" name="nothing" value="2021-01-09" size=12>
+						  <A href="javascript:void(0)"
+		onclick="gfPop.fEndPop(document.historysearchform.erectDate, document.historysearchform.nothing);return false;" hidefocus> <IMG name="popcal" align="absbottom" src="../time/calbtn.gif" border="0" alt=""> </A>
+                          </td>
+                        </tr>
+                    </table></td>
+                    <td width="40" align="left" valign="middle"><span class="lan12_hover">Currency:</span></td>
+                    <td width="50" align="left" valign="middle">
+
+                    
+
+                    <select name="pjname" id="pjname">
+					<option value="0" >Select the currency</option>
+					<option value="GBP"  selected>GBP</option>
+					<option value="HKD" >HKD</option>
+					<option value="USD" >USD</option>
+					<option value="CHF" >CHF</option>
+					<option value="DEM" >DEM</option>
+					<option value="FRF" >FRF</option>
+					<option value="SGD" >SGD</option>
+					<option value="SEK" >SEK</option>
+					<option value="DKK" >DKK</option>
+					<option value="NOK" >NOK</option>
+					<option value="JPY" >JPY</option>
+					<option value="CAD" >CAD</option>
+					<option value="AUD" >AUD</option>
+					<option value="EUR" >EUR</option>
+					<option value="MOP" >MOP</option>
+					<option value="PHP" >PHP</option>
+					<option value="THB" >THB</option>
+					<option value="NZD" >NZD</option>
+					<option value="KRW" >KRW</option>
+					<option value="RUB" >RUB</option>
+					<option value="MYR" >MYR</option>
+					<option value="TWD" >IDR</option>
+					<option value="ESP" >ESP</option>
+					<option value="ITL" >ITL</option>
+					<option value="NLG" >NLG</option>
+					<option value="BEF" >BEF</option>
+					<option value="FIM" >FIM</option>
+					<option value="IDR" >IDR</option>
+					<option value="BRL" >BRL</option>
+					<option value="AED" >AED</option>
+					<option value="INR" >INR</option>
+					<option value="ZAR" >ZAR</option>
+					<option value="SAR" >SAR</option>
+					<option value="TRY" >TRY</option>
+				</select>
+</td>
+                    <td width="40" align="left" valign="middle"><input type="button" value="search" onclick="return executeSearch();" />
+					
+					<!--<a href="javascript:executeSearch()"><img border=0 src="../images/detail/js.jpg" width="45" height="19"></a>--></td>
+                  <td width="60" align="left" >&nbsp;</TD>
+		</tr>
+                </table>
+                </form>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+ <!--
+	var m_sPageName = "search";
+	var m_sPageExt = "jsp"; 
+	PageContext.PageNav.go =  function(_iPage,_maxPage)
+	{
+		document.pageform.page.value = _iPage;
+		document.pageform.submit(); 
+	};
+// ����ҳ�����Լ��Զ��������ڴ�С
+var m_nRecordCount = 417;
+if(m_nRecordCount.length == 0){
+	m_nRecordCount = 0;
+}
+var m_nCurrPage = 1;
+//alert(m_nCurrPage);
+//alert(m_nCurrPage);
+var m_nPageSize = 20;
+
+window.onload = function(){
+     
+ PageContext["RecordNum"] = m_nRecordCount;
+ //PageContext.params["CurrPage"] = m_nCurrPage + 1;
+ PageContext.params["CurrPage"] = m_nCurrPage;
+ PageContext["PageSize"] = m_nPageSize;
+ PageContext.drawNavigator(); 
+}; 
+ 
+//-->
+</SCRIPT>
+                  <table width="640" border="0" cellpadding="5" cellspacing="1" bgcolor="#EAEAEA">
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#EFEFEF" class="lan12_hover">Currency Name</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#EFEFEF" class="lan12_hover">Buying Rate</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#EFEFEF" class="lan12_hover">Cash Buying Rate</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#EFEFEF" class="lan12_hover">Selling Rate</td>
+					  <td width="85" align="center" valign="middle" bgcolor="#EFEFEF" class="lan12_hover">Cash Selling Rate</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#EFEFEF" class="lan12_hover">Middle Rate</td>
+                      <td width="140" align="center" valign="middle" bgcolor="#EFEFEF" class="lan12_hover">Pub Time</td>
+                    </tr>
+ 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875.19</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">848</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.63</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.53</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.09 10:30:00</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875.19</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">848</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.63</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.53</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.09 10:30:00</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875.19</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">848</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.63</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.53</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.09 10:30:00</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875.19</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">848</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.63</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.53</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.09 10:10:22</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875.19</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">848</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.63</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.53</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.09 10:30:00</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875.19</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">848</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.63</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.53</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.09 10:10:22</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875.19</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">848</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.63</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.53</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.09 10:10:22</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875.19</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">848</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.63</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.53</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.09 05:51:10</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875.19</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">848</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.63</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.53</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.09 05:51:06</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">847.81</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.44</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.34</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.09 05:30:00</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">847.81</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.44</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.34</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.09 05:30:00</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">847.81</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.44</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.34</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.09 05:30:00</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">847.81</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.44</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.34</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.09 00:00:05</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">847.81</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.44</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.34</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.08 23:33:02</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">847.81</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.44</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.34</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.08 23:33:02</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">847.81</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.44</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.34</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.08 23:33:02</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">874.67</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">847.49</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.11</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.01</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.08 23:27:30</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">874.6</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">847.43</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.04</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">884.94</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.08 23:22:09</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">874.86</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">847.68</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">881.3</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.2</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.08 23:21:24</td>              
+                    </tr>
+			 
+                   
+                    <tr>
+                      <td width="75" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">GBP</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">875.62</td>
+
+					  <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">848.41</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">882.07</td>
+
+					  <td width="85" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">885.97</td>
+                      <td width="80" align="center" valign="middle" bgcolor="#FFFFFF" class="hui12_20">877.64</td>
+                      <td width="140" align="left" valign="middle" bgcolor="#FFFFFF" class="hui12_20">2021.01.08 23:13:45</td>              
+                    </tr>
+			
+       </table>
+                <table width="641" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td height="25"  align="center" valign="middle"> 
+			<div  class="pageInfo list_navigator" id="list_navigator"></div>
+ 		      </td>
+		    </tr>  
+                </table>
+
+				</td>
+            </tr>
+            <tr>
+              <td align="center" valign="top"><table width="650" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="49" align="right" background="../images/detail/bt_bj.gif"></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                </table>
+            </tr>
+<form name="pageform" action="searchen.jsp" method=post > 
+	<input type="hidden" name="erectDate" value="2021-01-07"> 
+	<input type="hidden" name="nothing" value="2021-01-09"> 
+	<INPUT type="hidden" name="pjname" value="GBP">  
+	<input type="hidden" name="page" value="1">  
+</form>
+<script language="JavaScript">
+	function gotoPage(npage)
+	{  
+		document.pageform.page.value = npage;
+		document.pageform.submit();
+	}
+	function getPage()
+	{ 
+	 	var val = document.getElementById("currentPage").value;
+	 	return val ;
+	}
+</script>    
+</body>
+</html> 
+<IFRAME width="168" height="190" name="gToday:normal:../time/agenda.js" id="gToday:normal:../time/agenda.js" src="../time/ipopeng.htm"
+	scrolling="no" frameborder="0"
+	style="border: 2px ridge ; visibility: hidden; z-index: 999; position: absolute; left: -500px; top: 0px;">
+</IFRAME>
